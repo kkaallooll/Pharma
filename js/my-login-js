@@ -1,0 +1,24 @@
+function checklogin(event)
+{
+    event.preventDefault();
+    var logo = document.getElementById('logo');
+    if(localStorage['user_email']!=null)
+    {
+        logo.href='index.html';
+
+
+        var str = window.location.href;
+
+        if(str.includes('login.html')===true || str.includes('register.html')===true || str.includes('main.html')===true)
+        {
+            console.log('ok');
+            window.location.assign('index.html');
+        }
+
+    }
+    else{
+        logo.href='main.html';
+
+
+    }
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c954384-52e3-4b9f-94eb-d27e9581862b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pharma" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1QT9Vj3SSrnzknLhejTLGNb2P15" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="F:\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kallo\Desktop\pharma\system\js" />
+      <recent name="C:\Users\kallo\Desktop\pharma\test\apps" />
+      <recent name="C:\Users\kallo\Desktop\pharma\test\middlewares" />
+      <recent name="C:\Users\kallo\Desktop\pharma\test\system\js" />
+      <recent name="C:\Users\kallo\Desktop\pharma\server" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c954384-52e3-4b9f-94eb-d27e9581862b" name="Default Changelist" comment="" />
+      <created>1567783748586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567783748586</updated>
+      <workItem from="1567783759377" duration="6775000" />
+      <workItem from="1567922128996" duration="8935000" />
+      <workItem from="1567938439883" duration="342000" />
+      <workItem from="1567944850479" duration="766000" />
+      <workItem from="1567945706512" duration="5465000" />
+      <workItem from="1567951966084" duration="8493000" />
+      <workItem from="1567960869081" duration="955000" />
+      <workItem from="1567963330744" duration="1472000" />
+      <workItem from="1567964900457" duration="176000" />
+      <workItem from="1568006455031" duration="3188000" />
+      <workItem from="1568014762832" duration="1512000" />
+      <workItem from="1568016369800" duration="6026000" />
+      <workItem from="1568027784375" duration="2033000" />
+      <workItem from="1568032651843" duration="12416000" />
+      <workItem from="1568050399180" duration="3294000" />
+      <workItem from="1568092209776" duration="684000" />
+      <workItem from="1575836078866" duration="27000" />
+      <workItem from="1575836112907" duration="584000" />
+      <workItem from="1575966429705" duration="2437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

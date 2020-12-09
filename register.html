@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pharma &mdash; Medicine Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="checklogin(event)">
+
+<div class="site-wrap">
+
+
+    <div class="site-navbar py-2">
+
+
+
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <div class="site-logo">
+                        <a id="logo" class="js-logo-clone">Pharma</a>
+                    </div>
+                </div>
+                <div class="main-nav d-none d-lg-block">
+                    <nav class="site-navigation text-right text-md-center" role="navigation">
+                        <ul class="site-menu js-clone-nav d-none d-lg-block">
+                            <li><a href="login.html">Login</a></li>
+                            <li class="active"><a href="register.html">Signup</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-blocks-cover" style="background-image: url('images/hero_1.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mx-auto order-lg-5 align-self-center">
+                    <div class="site-block-cover-content text-center">
+                        <h2 class="sub-title">Pharma</h2>
+                        <form id="form">
+                            <label for="c_name"  class="text-black">Full Name<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="c_name" name="name">
+                            <label for="c_email" class="text-black ">Email<span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="c_email" name="email">
+                            <label for="c_address" class="text-black">Full Address<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="c_address" name="address">
+                            <label for="c_phone" class="text-black">Phone<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="c_phone" name="phone">
+                            <label for="c_password" class="text-black">Password<span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="c_password" name="password">
+                        </form>
+                        <br>
+                        <p>
+                            <a class="btn btn-primary px-4 py-3" onclick="sign(event)">Sign Up</a>
+                        </p>
+                        <h2>Already have account? <a href="login.html">Login</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row align-items-stretch section-overlap">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="banner-wrap bg-primary h-100">
+                        <a href="#" class="h-100">
+                            <h5>Free <br> Delivery</h5>
+                            <p>
+                                Free home delivery
+                                <strong>We deliver on Sundays through Thursdays from 11:00 am to 5:00 pm.</strong>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="banner-wrap h-100">
+                        <a href="#" class="h-100">
+                            <h5>Get <br> 10% Off</h5>
+                            <p>
+                                Best Offer
+                                <strong>Buy medicines for 1000 tk or more and get 10% off.</strong>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="banner-wrap bg-warning h-100">
+                        <a href="#" class="h-100">
+                            <h5>Ask <br> A Pharmacist</h5>
+                            <p>
+                                Stop in or call us
+                                <strong>Our team is ready to take your medication questions. We are here for you.</strong>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section bg-secondary bg-image" style="background-image: url('images/bg_2.jpg');">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <a href="#" class="banner-1 h-100 d-flex" style="background-image: url('images/bg_1.jpg');">
+                        <div class="banner-1-inner align-self-center">
+                            <h2>Pharma Products</h2>
+                            <p>Manage your medications, Use opioids safely, Find an over-the-counter medication, Save money on medication, Get vaccinated
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <a href="#" class="banner-1 h-100 d-flex" style="background-image: url('images/bg_2.jpg');">
+                        <div class="banner-1-inner ml-auto  align-self-center">
+                            <h2>Medication Delivery</h2>
+                            <p>We offer free home delivery to all the areas inside Sylhet. We deliver on Sundays through Thursdays from 11:00 am to 5:00 pm.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+                    <div class="block-7">
+                        <h3 class="footer-heading mb-4">About Us</h3>
+                        <p>Pharma is a full-service pharmacy and will treat our customers like patients and not a transaction. We will do whatever it takes to make sure you are taken care of.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+                    <h3 class="footer-heading mb-4">Prescriptions</h3>
+                    <ul class="list-unstyled">
+                        <li>Whatsapp Us On</li>
+                        <li><a href="tel://8801788526581">+880 1788 526581</a></li>
+                        <li>Give Clear Picture</li>
+                        <li>*Conditions Apply</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="block-5 mb-5">
+                        <h3 class="footer-heading mb-4">Contact Info</h3>
+                        <ul class="list-unstyled">
+                            <li class="address">Janani Medicine Store, Goalabazar, Sylhet</li>
+                            <li class="phone"><a href="tel://8801788526581">+880 1788 526581</a></li>
+                            <li class="email">ddkallol@gmail.com</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <p>
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All Right Reserved | <a href="index.html" target="_blank"
+                                                                                                           class="text-primary">Pharma</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/register.js"></script>
+<script src="js/my-login-js"></script>
+
+</body>
+
+</html>
